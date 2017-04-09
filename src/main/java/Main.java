@@ -7,5 +7,8 @@ public class Main {
 
         DbConnect connect = new DbConnect();
         connect.getData();
+        connect.createTable();
+
+
     }
 }
